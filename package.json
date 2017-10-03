@@ -2,10 +2,23 @@
   "name": "pai",
   "version": "1.0.0",
   "description": "PAI: Personal Auxiliar Interface",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:arthurcantarela/pai.git"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "python manage.py runserver"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Arthur Cantarela",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sass": "^1.0.0-beta.2",
+    "webpack": "^3.6.0"
+  }
 }
